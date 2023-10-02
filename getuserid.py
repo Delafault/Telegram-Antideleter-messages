@@ -83,7 +83,7 @@ def update_ignore_users():
 
 def save_user_ids():
     global user_ids
-    usernames = input("Введите имена пользователей (разделите пробелами): ").split()
+    usernames = input("Введите @username пользователей (разделите пробелами): ").split()
 
     user_ids = []
 
